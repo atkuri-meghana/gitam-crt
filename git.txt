@@ -1,0 +1,37 @@
+1.pwd -- present working dir
+2.ls -- list of files and folders
+ls -a shows the hidden files and folders
+3. cd --change dir
+	cd <foldername> goes to that folder
+	cd ..  goes one step back to the parent folder
+	cd      default path
+4.mkdir --creates dir or folder
+  created on desktop
+5.working with files
+ 	touch -- used to create a file
+	echo  --to place single line of data to the file
+ syn:  echo "line 1 data" >data.txt
+          echo "line 3 data" >>data.txt  gives second line
+
+	cat  --used to read the file data
+ 	cat filename
+	gedit  ---multi line data
+	nano   -- II
+	syn:nano filename --shows gnu editor of nano
+
+-----------------------------------------------------------------------------------------
+git init ---initialises empty file repository
+untracked ---a file is not under git
+tracked ----placing a certain file under git
+unmodified---the file which has noit done any changes
+modified---changes done to file 
+git status -----shows the status out of 4
+git add data.txt----gives warning changes
+git config --global user.email "username"
+git config --global user.name"name"
+git config user.name
+git config user.email
+ 
+git config 
+
+ 

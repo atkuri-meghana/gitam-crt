@@ -1,0 +1,10 @@
+https://github.com/atkuri-meghana/gitam-crt
+Fetch the data ,pull the data
+ git pull <foldername>
+git pull gitam-crt
+ push the data :
+git push -u<foldername>
+git push -u gitam-crt
+git push -f --set-upstream <foldername>
+ <branchname>
+git push -f --set-upstream gitam-crt master
